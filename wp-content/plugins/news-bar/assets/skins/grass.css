@@ -1,0 +1,26 @@
+#news-bar-plus {
+	background: url(images/grass.png) repeat-x;
+	color: #fff;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 #202E0C;
+	-moz-text-shadow: 1px 1px 0 #202E0C;
+	-webkit-text-shadow: 1px 1px 0 #202E0C;
+}
+
+#news-bar-plus-ticker a,
+#news-bar-plus-ticker a:visited {
+	color: #E0FFB2;
+	text-decoration: none;
+	background: none;
+	outline: none;
+}
+#news-bar-plus-ticker a:hover,
+#news-bar-plus-ticker a:active,
+#news-bar-plus-ticker a:focus {
+	color: #E0FFB2;
+	text-decoration: underline;
+	background: none;
+	outline: none;
+}
+
+#news-bar-plus-social-icons a:hover { background: 0 100% url(images/grass.png) }

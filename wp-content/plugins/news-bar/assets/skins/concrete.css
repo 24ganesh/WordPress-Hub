@@ -1,0 +1,25 @@
+#news-bar-plus {
+	background: url(images/concrete.png) repeat-x;
+	color: #000;
+	text-shadow: 1px 1px 0 #bbb;
+	-moz-text-shadow: 1px 1px 0 #bbb;
+	-webkit-text-shadow: 1px 1px 0 #bbb;
+}
+
+#news-bar-plus-ticker a,
+#news-bar-plus-ticker a:visited {
+	color: #333;
+	text-decoration: underline;
+	background: none;
+	outline: none;
+}
+#news-bar-plus-ticker a:hover,
+#news-bar-plus-ticker a:active,
+#news-bar-plus-ticker a:focus {
+	color: #333;
+	text-decoration: none;
+	background: none;
+	outline: none;
+}
+
+#news-bar-plus-social-icons a:hover { background: 0 100% url(images/concrete.png) }

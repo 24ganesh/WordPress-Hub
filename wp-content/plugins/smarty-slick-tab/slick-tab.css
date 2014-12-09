@@ -1,0 +1,116 @@
+/*
+ * CSS for Plugin: WP Slick Tab
+*/
+
+
+#slick_tab {
+	position: fixed;
+}
+/* Tab width*/
+#tab_toggle {
+	position: absolute;
+	text-align:center;
+	top: 45%;
+	width: 20px;
+	/*height: 70px;*/
+	z-index: 4;
+	overflow: hidden;
+}
+
+/* Chrome and Safari overlap fix
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ #tab_toggle { 
+ 	/* position: fixed; */
+	right:0;
+ }
+}
+*/
+/* Title hover */
+#tab_title_wrap:hover {
+	cursor: pointer;
+	color: #fff;
+}
+/* TAB IMAGE (optional) 
+ * NOTE: refer to options_set.js line 111 for width
+ */
+#tab_image_wrap {
+	position: fixed;
+}
+#tab_toggle:hover {
+	cursor: pointer;
+}
+/*****************************************************************
+ *  Custom toggle class
+ *  Use your own element with this class to toggle the open/close
+ */
+.make_it_slide {
+	// custom class you can use to toggle the slick
+}
+
+.open_action {
+	position: fixed;
+    background-image: url("images/SlickTab.png");
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+	width:50px;
+    height: 50px;
+    top: 45% !important;
+}
+.closed_action {
+	position: static;
+	background-image: url('images/close.gif') !important;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+	height: 12px;
+	width: 12px;
+	margin-top: 7px;
+}
+
+#tab_toggle:active {
+    -webkit-animation-name: spin; 
+    -webkit-animation-iteration-count: infinite; 
+    /*-webkit-animation-timing-function: ease-in-out;*/
+    -webkit-animation-duration: 1s; 
+}
+/* Title font and rotation */
+#tab_title_wrap {
+	position: relative;
+	display:block;
+	font-weight:bold;
+        font-size:16px;
+        font-family: 'calibri','Lucida Grande',Verdana,Arial,Sans-Serif;
+        color:#616161;
+        overflow: visible;
+  
+}
+#tab_title_wrap .span{
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+/* Tab Content */
+.newline {
+	display: block;
+	line-height: 0.7em; 
+}
+.slick_tab_wrapper {
+	font-family: 'calibri','Lucida Grande',Verdana,Arial,Sans-Serif; 
+	height:100%;
+	margin:0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:10000;
+}
+#slick_tab_background {
+    border-radius: 5px;
+	-moz-background-clip: padding; 
+	-webkit-background-clip: padding-box; 
+	background-clip: padding-box;
+	/* background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#CCCCCC));
+	background: -o-linear-gradient(top, #000, #AAA);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#AAAAAA');
+	*/
+}
+#timer .hidden{display: none;}
+#timer .shown{display: block;}

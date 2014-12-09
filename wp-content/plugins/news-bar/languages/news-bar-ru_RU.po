@@ -1,0 +1,614 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gn_themes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-26 14:24+0300\n"
+"PO-Revision-Date: 2012-05-26 14:25+0300\n"
+"Last-Translator: Vladimir Anokhin <ano.vladimir@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./functions\n"
+
+#: news-bar.php:23
+#: includes/options.php:40
+msgid "News Bar"
+msgstr "Новостная панель"
+
+#: news-bar.php:24
+msgid "Vladimir Anokhin"
+msgstr "Владимир Анохин"
+
+#: news-bar.php:25
+msgid "News bar with latest tweets or posts from specified blog category. Extended version."
+msgstr "Новостная панель с последними твитами или записями из выбранной категории. Расширенная версия."
+
+#: classes/gn-plugin-framework.class.php:260
+#: includes/backend.php:5
+#: includes/options.php:90
+msgid "Settings"
+msgstr "Настройки"
+
+#: classes/gn-plugin-framework.class.php:303
+msgid "Instructions"
+msgstr "Инструкции"
+
+#: classes/gn-plugin-framework.class.php:310
+#: classes/gn-plugin-framework.class.php:319
+#: classes/gn-plugin-framework.class.php:328
+#: classes/gn-plugin-framework.class.php:337
+msgid "Click to close"
+msgstr "Кликните, чтобы закрыть"
+
+#: includes/backend.php:4
+msgid "About"
+msgstr "О плагине"
+
+#: includes/backend.php:6
+#: includes/options.php:292
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: includes/backend.php:11
+msgid "For full functionality of this page it is reccomended to enable javascript."
+msgstr "Для правильной работы этой страницы рекомендуется включить JavaScript."
+
+#: includes/backend.php:12
+msgid "Settings reseted successfully"
+msgstr "Настройки успешно сброшены"
+
+#: includes/backend.php:13
+msgid "There is already default settings"
+msgstr "Настройки уже были сброшены"
+
+#: includes/backend.php:14
+msgid "Settings saved successfully"
+msgstr "Настройки успешно сохранены"
+
+#: includes/backend.php:15
+msgid "Settings not saved, because there is no changes"
+msgstr "Настройки не сохранены, т.к. ничего не изменилось"
+
+#: includes/get-news.php:54
+#: includes/get-news.php:101
+msgid "Messages not found"
+msgstr "Сообщения не найдены"
+
+#: includes/options.php:86
+msgid "About plugin"
+msgstr "О плагине"
+
+#: includes/options.php:94
+msgid "News settings"
+msgstr "Настройки новостей"
+
+#: includes/options.php:98
+msgid "Receive news from"
+msgstr "Источник новостей"
+
+#: includes/options.php:99
+msgid "Choose news source"
+msgstr "Выберите источник новостей"
+
+#: includes/options.php:101
+msgid "Twitter"
+msgstr "Твиттер"
+
+#: includes/options.php:102
+#: includes/options.php:120
+msgid "Blog category"
+msgstr "Категория блога"
+
+#: includes/options.php:103
+msgid "RSS feed"
+msgstr "RSS поток"
+
+#: includes/options.php:104
+#: includes/options.php:137
+msgid "Custom post type"
+msgstr "Произвольный тип записей"
+
+#: includes/options.php:112
+msgid "Twitter username"
+msgstr "Имя пользователя Twitter"
+
+#: includes/options.php:113
+msgid "Enter your twitter username"
+msgstr "Введите ваше имя пользователя твиттера"
+
+#: includes/options.php:121
+msgid "Choose blog category"
+msgstr "Выберит одну из категорий блога"
+
+#: includes/options.php:129
+msgid "RSS feed url"
+msgstr "Ссылка RSS"
+
+#: includes/options.php:130
+msgid "Enter the url of RSS feed"
+msgstr "Введите ссылку на RSS"
+
+#: includes/options.php:138
+msgid "You can select any custom post type registered on your site.<br/>Recommended: News Bar"
+msgstr "Вы можете выбрать любой тип записей, зарегистрированный на вашем сайте.<br/>Рекомендуется: Новостная панель"
+
+#: includes/options.php:146
+msgid "Disable plugin post type"
+msgstr "Отключить тип записи плагина"
+
+#: includes/options.php:147
+msgid "Disable custom post type registered by this plugin.<br/>If you enable this option custom post type News Bar will be deregistered.<br/>Do not enable this option if you using this custom post type as news source"
+msgstr "Отключение типа записи, зарегистрированного этим плагином.<br/>Если вы активируете эту настройку, тип записей Новостная панель будет деактивирован (удален).<br/>Не включайте эту настройку если в качестве источника новостей используется этот тип записей"
+
+#: includes/options.php:151
+msgid "Disable"
+msgstr "Отключить"
+
+#: includes/options.php:154
+msgid "Number of items to rotate"
+msgstr "Количество новостей"
+
+#: includes/options.php:155
+msgid "Select number of news to be showed.<br/>Reccomended value: from 1 to 20"
+msgstr "Укажите кол-во новостей, которые будут показаны.<br/>Рекомендованные значения: от 1 до 20"
+
+#: includes/options.php:159
+msgid "pc."
+msgstr "шт."
+
+#: includes/options.php:164
+#: includes/options.php:235
+msgid "Open links in new window"
+msgstr "Открывать ссылки в новом окне"
+
+#: includes/options.php:165
+msgid "Open ticker links in new window/tab or in the same"
+msgstr "Открывать ссылки новостной панели в новом окне/вкладке или в текущем"
+
+#: includes/options.php:169
+#: includes/options.php:226
+#: includes/options.php:240
+#: includes/options.php:316
+msgid "Yes"
+msgstr "Да"
+
+#: includes/options.php:172
+msgid "Caching"
+msgstr "Кеширование"
+
+#: includes/options.php:176
+msgid "Enable caching <sup>BETA</sup>"
+msgstr "Включить кеширование <sup>BETA</sup>"
+
+#: includes/options.php:177
+msgid "This option enables caching for feeds.<br/>Be careful with this option."
+msgstr "Эта настройка позволяет включить кеширование новостных rss-потоков.<br/>Будьте осторожны при использовании этой настройки."
+
+#: includes/options.php:181
+msgid "Enable"
+msgstr "Включить"
+
+#: includes/options.php:184
+msgid "Animation"
+msgstr "Анимация"
+
+#: includes/options.php:188
+msgid "Animation type"
+msgstr "Тип анимации"
+
+#: includes/options.php:189
+msgid "Select animation type"
+msgstr "Выберите тип анимации"
+
+#: includes/options.php:191
+msgid "Fade"
+msgstr "Затухание"
+
+#: includes/options.php:192
+msgid "Slide"
+msgstr "Скольжение"
+
+#: includes/options.php:199
+msgid "News animation delay"
+msgstr "Задержка"
+
+#: includes/options.php:200
+msgid "Time between ticker animations in milliseconds ( 1000ms = 1sec )"
+msgstr "Время между сменой новостей в миллисекундах ( 1000мс = 1сек )"
+
+#: includes/options.php:204
+#: includes/options.php:214
+msgid "ms"
+msgstr "мс"
+
+#: includes/options.php:209
+msgid "News rotation speed"
+msgstr "Скорость"
+
+#: includes/options.php:210
+msgid "Ticker animation speed in milliseconds ( 1000ms = 1sec )"
+msgstr "Скорость анимации смены новостей в миллисекундах ( 1000мс = 1 сек )"
+
+#: includes/options.php:219
+msgid "Social icons"
+msgstr "Социальные иконки"
+
+#: includes/options.php:223
+msgid "Show social icons"
+msgstr "Показать иконки"
+
+#: includes/options.php:224
+msgid "Show or hide social icons in News Bar"
+msgstr "Показать или скрыть социальные иконки"
+
+#: includes/options.php:227
+msgid "No"
+msgstr "Нет"
+
+#: includes/options.php:236
+msgid "Open icon links in new window/tab or in the same"
+msgstr "Открывать социальные иконки в новом окне/вкладке или в текущем"
+
+#: includes/options.php:244
+msgid "Icon #1"
+msgstr "Иконка №1"
+
+#: includes/options.php:245
+#: includes/options.php:254
+#: includes/options.php:263
+#: includes/options.php:272
+#: includes/options.php:281
+msgid "Select social icon and enter the url<br/>Leave url blank to disable icon"
+msgstr "Выберите иконку и введите для неё ссылку<br/>Оставьте поле ссылки пустым, чтобы отключить иконку"
+
+#: includes/options.php:253
+msgid "Icon #2"
+msgstr "Иконка №2"
+
+#: includes/options.php:262
+msgid "Icon #3"
+msgstr "Иконка №3"
+
+#: includes/options.php:271
+msgid "Icon #4"
+msgstr "Иконка №4"
+
+#: includes/options.php:280
+msgid "Icon #5"
+msgstr "Иконка №5"
+
+#: includes/options.php:296
+msgid "General styling"
+msgstr "Основные настройки внешнего вида"
+
+#: includes/options.php:300
+msgid "Show News Bar at"
+msgstr "Отобразить панель"
+
+#: includes/options.php:301
+msgid "Choose where News Bar will be displayed"
+msgstr "Выберите место, где будет отображена новостная панель"
+
+#: includes/options.php:303
+msgid "top of page"
+msgstr "вверху страницы"
+
+#: includes/options.php:304
+msgid "bottom of page"
+msgstr "внизу страницы"
+
+#: includes/options.php:311
+msgid "Remove admin bar"
+msgstr "Отключить админ-панель"
+
+#: includes/options.php:312
+msgid "Default WordPress admin bar will be removed from frontend for all users<br/>It is recommended to enable this option"
+msgstr "Стандартная панель WordPress (админ-бар) будет отключена для всех пользователе при просмотре сайта, но не для консоли<br/>Рекомендуется включить эту настройку"
+
+#: includes/options.php:319
+msgid "News icon"
+msgstr "Иконка новостей"
+
+#: includes/options.php:320
+msgid "Select icon for news (16x16 px)"
+msgstr "Выберите иконку для новостей (16x16 пкс.)"
+
+#: includes/options.php:327
+msgid "Bar width"
+msgstr "Ширина панели"
+
+#: includes/options.php:328
+msgid "Specify bar width to fit it to the site"
+msgstr "Укажите ширину панели, чтобы она идеально подошла к вашему сайту"
+
+#: includes/options.php:337
+msgid "Skin"
+msgstr "Скин"
+
+#: includes/options.php:338
+msgid "Choose skin for News Bar"
+msgstr "Выберите тему для новостной панели"
+
+#: includes/options.php:340
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/options.php:341
+msgid "Custom skin"
+msgstr "Своя тема"
+
+#: includes/options.php:342
+msgid "Glass"
+msgstr "Стекло"
+
+#: includes/options.php:343
+msgid "Dark glass"
+msgstr "Темное стекло"
+
+#: includes/options.php:344
+msgid "Wood"
+msgstr "Дерево"
+
+#: includes/options.php:345
+msgid "Dark wood"
+msgstr "Темное дерево"
+
+#: includes/options.php:346
+msgid "Aluminum"
+msgstr "Алюминий"
+
+#: includes/options.php:347
+msgid "Metal"
+msgstr "Металл"
+
+#: includes/options.php:348
+msgid "Cherry"
+msgstr "Вишня"
+
+#: includes/options.php:349
+msgid "Concrete"
+msgstr "Бетон"
+
+#: includes/options.php:350
+msgid "Vista"
+msgstr "Виста"
+
+#: includes/options.php:351
+msgid "Grass"
+msgstr "Трава"
+
+#: includes/options.php:359
+msgid "Custom skin settings"
+msgstr "Настройки пользовательской темы"
+
+#: includes/options.php:364
+msgid "Custom skin image"
+msgstr "Фоновое изображение"
+
+#: includes/options.php:365
+msgid "Enter the url or upload custom skin image.<br/>Image must be tileable by X-axis"
+msgstr "Введите ссылку на изображение или загрузите его.<br/>Изображение должно быть текстурным (повторяться) по оси X"
+
+#: includes/options.php:372
+msgid "Custom skin text color"
+msgstr "Цвет текста"
+
+#: includes/options.php:373
+msgid "Choose text color for your custom skin"
+msgstr "Укажите цвет текста для вашей темы"
+
+#: includes/options.php:380
+msgid "Custom skin links color"
+msgstr "Цвет ссылок"
+
+#: includes/options.php:381
+msgid "Choose links color for your custom skin"
+msgstr "Укажите цвет ссылок для вашей темы"
+
+#: includes/options.php:388
+msgid "Custom skin links hover color"
+msgstr "Цвет ссылок при наведении"
+
+#: includes/options.php:389
+msgid "Choose hovered links color for your custom skin"
+msgstr "Укажите цвет ссылок при наведении для вашей темы"
+
+#: includes/options.php:396
+msgid "Advanced settings"
+msgstr "Особые настройки"
+
+#: includes/options.php:400
+msgid "CSS position"
+msgstr "CSS position"
+
+#: includes/options.php:401
+msgid "Specify CSS-position property for News Bar"
+msgstr "Укажите значение css-свойства position для новостной панели"
+
+#: includes/options.php:403
+msgid "Fixed"
+msgstr "Fixed (фиксированное)"
+
+#: includes/options.php:404
+msgid "Absolute"
+msgstr "Absolute (абсолютное)"
+
+#: includes/options.php:405
+msgid "Static"
+msgstr "Static (статичное)"
+
+#: includes/options.php:412
+msgid "Font size"
+msgstr "Размер шрифта"
+
+#: includes/options.php:413
+msgid "Font size for Bews Bar"
+msgstr "Размер шрифта для новостной панели"
+
+#: includes/options.php:422
+msgid "HTML margin-top"
+msgstr "Отступ сверху для HTML"
+
+#: includes/options.php:423
+msgid "Here you can specify margin-top value for HTML tag, if News Bar placed at the top of the page"
+msgstr "Здесь вы можете указать значение свойства margin-top для тега HTML. Эта настройка может быть полезна в том случае, если панель отображается вверху страницы"
+
+#: includes/options.php:432
+msgid "News Bar z-index"
+msgstr "Значение z-index"
+
+#: includes/options.php:433
+msgid "Specify z-index CSS-property for News Bar"
+msgstr "Укажите значение css-свойства z-index для новостной панели"
+
+#: includes/post-type.php:16
+msgid "Add new item"
+msgstr "Добавить новость"
+
+#: includes/post-type.php:17
+msgid "Edit item"
+msgstr "Редактировать новость"
+
+#: includes/post-type.php:18
+#, fuzzy
+msgid "New News Bar item"
+msgstr "Добавить новость"
+
+#: includes/post-type.php:19
+msgid "View item"
+msgstr "Просмотреть новость"
+
+#: includes/post-type.php:20
+msgid "Search items"
+msgstr "Поиск новостей"
+
+#: includes/post-type.php:21
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: includes/post-type.php:22
+msgid "Nothing found in Trash"
+msgstr "В корзине ничего нет"
+
+#: includes/fields/about.php:3
+msgid "Support"
+msgstr "Поддержка"
+
+#: includes/fields/about.php:5
+msgid "Documentation"
+msgstr "Документация"
+
+#: includes/fields/about.php:6
+msgid "My twitter"
+msgstr "Мой твиттер"
+
+#: includes/fields/about.php:10
+msgid "Check my FREE plugins"
+msgstr "Посмотрите мои бесплатные плагины"
+
+#: includes/fields/about.php:12
+msgid "Shortcodes Ultimate"
+msgstr "Shortcodes Ultimate"
+
+#: includes/fields/about.php:12
+msgid "many useful shortcodes"
+msgstr "много полезных шорткодов"
+
+#: includes/fields/about.php:13
+msgid "Power slider"
+msgstr "Power slider"
+
+#: includes/fields/about.php:13
+msgid "customizable slider"
+msgstr "настраиваемый слайдер"
+
+#: includes/fields/about.php:14
+msgid "WP Insert Post"
+msgstr "WP Insert Post"
+
+#: includes/fields/about.php:14
+msgid "frontend posting form"
+msgstr "форма публикации со станиц сайта"
+
+#: includes/fields/closetab.php:3
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: includes/fields/closetab.php:4
+msgid "Saving"
+msgstr "Сохранение"
+
+#: includes/fields/closetab.php:5
+msgid "Saved"
+msgstr "Сохранено"
+
+#: includes/fields/closetab.php:6
+msgid "Reset all settings to default. Are you sure? This action cannot be undone!"
+msgstr "Сброс всех настроек. Вы уверены? Это действие нельзя будет отменить!"
+
+#: includes/fields/closetab.php:6
+msgid "Restore default settings"
+msgstr "Восстановить настройки"
+
+#: includes/fields/icon.php:7
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: includes/fields/icon.php:13
+msgid "Upload custom icon"
+msgstr "Загрузить свою иконку"
+
+#: includes/fields/image.php:7
+msgid "Upload"
+msgstr "Загрузить"
+
+#: includes/fields/social-icon.php:8
+msgid "Enter the url"
+msgstr "Введите ссылку"
+
+#~ msgid "News Bar Plus"
+#~ msgstr "Новостная панель Plus"
+
+#~ msgid "My CodeCanyon profile"
+#~ msgstr "Мой профиль на CodeCanyon"
+
+#~ msgid "Send me email"
+#~ msgstr "Написать мне письмо"
+
+#~ msgid "News Bar - free version"
+#~ msgstr "Новостная панель - бесплатная версия"
+
+#~ msgid "show recent tweets and news"
+#~ msgstr "отображает последние твиты и новости"
+
+#~ msgid "Author twitter"
+#~ msgstr "Твиттер автора"
+
+#~ msgid "Support forum"
+#~ msgstr "Форум поддержки"
+
+#~ msgid "Do you love this plugin?"
+#~ msgstr "Вам нравится этот плагин"
+
+#~ msgid "Rate this plugin at wordpress.org"
+#~ msgstr "Оцените плагин на wordpress.org"
+
+#~ msgid "5 stars"
+#~ msgstr "5 звезд"
+
+#~ msgid "Review this plugin in your blog"
+#~ msgstr "Сделайте обзор плагина на своем блоге"
+
+#~ msgid "Click buttons below"
+#~ msgstr "Кликните по кнопкам ниже"
+
+#~ msgid "Awesome WordPress plugin "
+#~ msgstr "Отличный плагин для WordPress"
+
+#~ msgid "Taxonomy"
+#~ msgstr "Таксономия"
